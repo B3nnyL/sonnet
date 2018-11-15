@@ -1,0 +1,38 @@
+{
+  "name": "sonnet",
+  "productName": "Sonnet",
+  "version": "0.1.0",
+  "description": "Sonnets in your terminal",
+  "repository": "B3nnyL/sonnet",
+  "author": "Shuying Lin <ciao@sylin.me> (http://sylin.me)",
+  "license": "MIT",
+  "bin": {
+    "sonnet": "index.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "libs",
+    "index.js",
+    "staic"
+  ],
+  "keywords": [
+    "sonnet",
+    "fun",
+    "app",
+    "console",
+    "cli"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jest": "*"
+  }
+}
